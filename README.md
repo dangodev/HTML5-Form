@@ -43,3 +43,8 @@ Options
 * `invalidCSS` - inline style to apply to invalid form elements (default: `{boxShadow: '0 0 4px #f20'}`)
 * `showErrors` - set to `1` or `true` to display form errors; set to `0` or `false` to hide them (default: `true`)
 * `validCSS` - inline style to override the `invalidCSS` setting (default: `{boxShadow: 'none'`)
+
+
+Download
+--------
+https://github.com/dangodev/HTML5-Form/zipball/master
