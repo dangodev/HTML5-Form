@@ -22,11 +22,12 @@ Dependencies
 
 Usage
 -----
-Call
+To initialize:
+$(document).ready(function() {
+	$('div#tabs').tabinate();
+});
 
-	$('form').html5form();
-
-to initialize. It will then require every input element with a `required` attribute to be filled out and pass validation.
+It will then require every input element with a `required` attribute to be filled out and pass validation.
 
 The selector can be a form element, or any other element that contains the elements to be validated.
 
