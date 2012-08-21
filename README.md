@@ -7,7 +7,12 @@ Description
 -----------
 This is a JS fallback for IE8 / IE9 to use HTML5 form validation, and requires no modification to your forms. It requires all elements with a `required` attribute to be filled out and validate.
 
-It validates based on an input's `type` attribute. Currently it only supports email, but support for the `tel` type will be added in the next version.
+It validates based on an input's `type` attribute. Currently it only supports email validation.
+
+Currently unsupported, planned for upcoming releases:
+* `tel`
+* `radio`
+* `checkbox`
 
 
 Dependencies

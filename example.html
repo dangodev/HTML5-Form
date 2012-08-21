@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+<meta charset='utf-8'>
+<title>HTML5 Form</title>
+<style>
+body				{font:100% Helvetica, sans-serif;}
+form				{border:1px solid #eee;padding:40px;width:50%;margin:0 auto;}
+label				{display:block;padding-bottom:20px;}
+.red				{color:#f20;}
+</style>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.html5form.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('form').html5form();
+});
+</script>
+</head>
+
+<body>
+<form action="" method="post" novalidate><label><span class="red">*</span> First Name<br />
+  <input type="text" required="required" /></label>
+  <label><span class="red">*</span>Last Name<br />
+  <input type="text" required="required" /></label>
+  <label><span class="red">*</span>Email<br />
+  <input type="email" required="required" /></label>
+  <label>Telephone<br />
+  <input type="tel" /></label>
+  <label>Gender<br />
+  <select required="required">
+	<option value="">Select One</option>
+	<option value="male">Male</option>
+	<option value="female">Female</option>
+	<option value="cheese"></option>
+  </select></label>
+  <label>Notes<br />
+  <textarea required="required"></textarea></label>
+  Favorite Spacecraft:<br />
+  <label><input type="radio" name="ss" required="required" /> Atlantis</label>
+  <label><input type="radio" name="ss" required="required" /> Colombia</label>
+  <label><input type="radio" name="ss" required="required" /> Discovery</label>
+  <label><input type="radio" name="ss" required="required" /> Endeavor</label>
+  <label><input type="radio" name="ss" required="required" /> Sputnik</label>
+  <input type="submit" value="submit" />
+</form>
+</body>
+</html>
