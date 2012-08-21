@@ -5,7 +5,7 @@ JS-fallback for HTML5-style validation (version 0.2)
 
 Description
 -----------
-This is a JS fallback for IE8 / IE9 that requires no modification to your HTML5. It requires all elements with `required="required"` to be filled out.
+This is a JS fallback for IE8 / IE9 to use HTML5 form validation, and requires no modification to your forms. It requires all elements with a `required` attribute to be filled out and validate.
 
 It validates based on an input's `type` attribute. Currently it only supports email, but support for the `tel` type will be added in the next version.
 
