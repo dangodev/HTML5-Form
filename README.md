@@ -23,6 +23,7 @@ Dependencies
 Usage
 -----
 To initialize:
+
 	$(document).ready(function() {
 		$('div#tabs').tabinate();
 	});
