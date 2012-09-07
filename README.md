@@ -25,7 +25,7 @@ Usage
 To initialize:
 
 	$(document).ready(function() {
-		$('div#tabs').tabinate();
+		$('form').html5form();
 	});
 
 It will then require every input element with a `required` attribute to be filled out and pass validation.
